@@ -1,0 +1,248 @@
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    border-bottom:  1px solid #eee;
+    background: transparent;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 10;
+    
+}
+.nav{
+   
+    text-align: center;
+    position:absolute;
+    flex-direction: column;
+    justify-content: center;
+    top: 90px;
+    right:-100%;
+    width: 80%;
+    height: 95vh;
+    transition: 0.4s;
+    z-index:6;
+    background:#110f0f;
+    border-left:1px solid #fff;
+    
+    
+}
+.nav.active{
+    
+    right:-23%;
+    
+}
+.nav li{
+    padding: 2rem;
+    width:100%;
+    /* border-bottom: 1px solid #eee; */
+}
+.nav li a{
+    cursor: pointer;
+    color: white;
+    
+}
+
+.containerr{
+   
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    top: -1px;
+    padding: 1rem;
+    text-decoration: none;
+    list-style-type: none; /* Remove list dots */
+    padding: 0;
+}
+/* .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+} */
+
+  
+  .containerr li {
+    display: inline-block; /* Display list items horizontally */
+    
+  }
+  
+  .containerr li a {
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px; /* Add padding around the links */
+    color: black;
+    
+  }
+  .containerr li a:hover {
+  background-color: grey; /* Change background color to grey on hover */
+  color: white; /* Change text color to white on hover */
+}
+.containerr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+    text-decoration: none;
+    list-style-type: none; /* Remove list dots */
+    padding: 0;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+}
+.navv{
+    position: relative;
+   font-size: 20px;
+    float:right;
+    width: 900px;
+    padding: 10px; 
+    
+ /* background-color: black; */
+}
+.hamburger{
+    
+    right: -250px;
+    
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .search-bar button[type="submit"] {
+    background-color: #ccc;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-bar button[type="submit"]:hover {
+    background-color: #aaa;
+  }
+  
+  .search-bar i {
+    color: #555;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 150px;
+    height: 10px;
+  }
+  
+  /* Media Query */
+  @media (max-width: 768px) {
+    .search-bar input[type="text"] {
+      width: 100px;
+      height: 8px;
+    }
+  }
+  
+ /* Media Queries */
+ @media screen and (max-width: 1100px) {
+    .nav {
+      right: -100%;
+    }
+  
+    .nav.active {
+      right:-40%;
+    }
+  
+    .hamburger {
+      right: 0;
+    }
+  
+    .nav li {
+      padding: 1px;
+    }
+  }
+ /* Media Queries */
+ @media screen and (max-width: 768px) {
+    .nav {
+      right: -100%;
+    }
+  
+    .nav.active {
+      right:-40%;
+    }
+  
+    .hamburger {
+      right: 0;
+    }
+  
+    .nav li {
+      padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 1368px) {
+  .containerr li a {
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px; /* Add padding around the links */
+    color: black;
+    font-size: 20px;
+    
+  }
+}
+@media screen and (max-width: 1268px) {
+    .containerr li a {
+      text-decoration: none; /* Remove underline from links */
+      padding: 10px; /* Add padding around the links */
+      color: black;
+      font-size: 20px;
+      
+    }
+    
+  }
+  @media screen and (max-width: 1068px) {
+    .containerr li a {
+      text-decoration: none; /* Remove underline from links */
+      padding: 10px; /* Add padding around the links */
+      color: black;
+      font-size: 16px;
+      
+    }
+  }
+  @media screen and (max-width: 868px) {
+    .containerr li a {
+      text-decoration: none; /* Remove underline from links */
+      padding: 10px; /* Add padding around the links */
+      color: black;
+      font-size: 14px;
+      
+    }
+    
+  }
+  @media screen and (max-width: 668px) {
+    .containerr li a {
+      text-decoration: none; /* Remove underline from links */
+      padding: 10px; /* Add padding around the links */
+      color: black;
+      font-size: 12px;
+      
+    }
+    
+  }
